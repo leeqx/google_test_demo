@@ -1,0 +1,8 @@
+
+-----------------------------------------------------------------
+Xoreax Grid Engine Console 3.51 (build 1106)
+Copyright (C) 2001-2010 Xoreax Software Ltd. All rights reserved.
+-----------------------------------------------------------------
+
+
+Initializing...

@@ -1,0 +1,51 @@
+
+-----------------------------------------------------------------
+Xoreax Grid Engine Console 3.51 (build 1106)
+Copyright (C) 2001-2010 Xoreax Software Ltd. All rights reserved.
+-----------------------------------------------------------------
+
+
+
+Waiting for current build to complete...
+                         
+
+Initializing...
+--------------------Project: Visual Lint [Machine: SNAIL-PC; Host: VS9.0; User: snail]
+|   E:\visual_lint\Riverblade\Visual Lint\XgTaskWrapper.exe  /tool=PC-lint C:\lint\lint-nt.exe -iC:\lint\lnt -iC:\lint -background -b -u C:\lint\lnt\std_vs90.lnt  env-vc9.lnt -vm -t4 +linebuf +linebuf +linebuf -iF:\C-CPP_Projects\google_test\google_test\Debug --u F:\C-CPP_Projects\google_test\google_test\google_test_vs90_Debug_Win32.lnt F:\C-CPP_Projects\google_test\google_test\stdafx.cpp
+stdafx.cpp;[TaskID=29]; (0:01.15 at +0:00)
+{0B510EAD-F6DF-4b0d-BFD8-CFF750EF5336}
+
+--- Module:   F:\C-CPP_Projects\google_test\google_test\stdafx.cpp (C++)
+
+    --- Wrap-up for Module: F:\C-CPP_Projects\google_test\google_test\stdafx.cpp
+
+F:\C-CPP_Projects\google_test\google_test\stdafx.cpp(9): error 766: (Info -- Header file 'F:\C-CPP_Projects\google_test\google_test\stdafx.h' not used in module 'F:\C-CPP_Projects\google_test\google_test\stdafx.cpp')
+
+--- Global Wrap-up
+
+ error 900: (Note -- Successful completion, 1 messages produced)
+|   E:\visual_lint\Riverblade\Visual Lint\XgTaskWrapper.exe  /tool=PC-lint C:\lint\lint-nt.exe -iC:\lint\lnt -iC:\lint -background -b -u C:\lint\lnt\std_vs90.lnt  env-vc9.lnt -vm -t4 +linebuf +linebuf +linebuf -iF:\C-CPP_Projects\google_test\google_test\Debug --u F:\C-CPP_Projects\google_test\google_test\google_test_vs90_Debug_Win32.lnt F:\C-CPP_Projects\google_test\google_test\google_test.cpp
+google_test.cpp;[TaskID=27]; (0:03.07 at +0:00)
+{0B510EAD-F6DF-4b0d-BFD8-CFF750EF5336}
+
+--- Module:   F:\C-CPP_Projects\google_test\google_test\google_test.cpp (C++)
+}
+F:\C-CPP_Projects\google_test\google_test\google_test.cpp(17): error 533: (Warning -- function 'google_test::IsPrim(int)' should return a value (see line 13))
+F:\C-CPP_Projects\google_test\google_test\google_test.cpp(13): error 830: (Info -- Location cited in prior message)
+    RUN_ALL_TESTS();
+F:\C-CPP_Projects\google_test\google_test\google_test.cpp(23): error 534: (Warning -- Ignoring return value of function 'testing::UnitTest::Run(void)' (compare with line 1102, file E:\C-librarys\gtest-1.6.0\include\gtest\gtest.h))
+E:\C-librarys\gtest-1.6.0\include\gtest\gtest.h(1102): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\google_test.cpp(25): error 715: (Info -- Symbol 'argv' (line 21) not referenced)
+F:\C-CPP_Projects\google_test\google_test\google_test.cpp(21): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\google_test.cpp(25): error 715: (Info -- Symbol 'argc' (line 21) not referenced)
+F:\C-CPP_Projects\google_test\google_test\google_test.cpp(21): error 830: (Info -- Location cited in prior message)
+
+--- Global Wrap-up
+
+ error 900: (Note -- Successful completion, 8 messages produced)
+ 
+---------------------- Done ----------------------
+ 
+    Build: 1 succeeded, 0 failed, 0 skipped

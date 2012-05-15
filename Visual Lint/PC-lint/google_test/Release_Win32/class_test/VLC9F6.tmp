@@ -1,0 +1,110 @@
+
+--- Module:   F:\C-CPP_Projects\google_test\class_test\main.cpp (C++)
+        google_test_class obj;
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(45): error 601: (Warning -- No explicit type for symbol 'fixture::google_test_classTest::google_test_class', int assumed)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(45): error 10: (Error -- Expecting ';')
+#... est_classTest_IsInitialZero_Test const &); GTEST_DISALLOW_ASSIGN_(google_t
+#... ME_(google_test_classTest, IsInitialZero));};::testing::TestInfo* const GT
+#... ernal::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,IsInitialZero){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(50): error 1704: (Info -- Constructor 'fixture::google_test_classTest_IsInitialZero_Test::google_test_classTest_IsInitialZero_Test(const fixture::google_test_classTest_IsInitialZero_Test &)' has private access specification)
+#... E_(google_test_classTest, IsInitialZero));};::testing::TestInfo* const GTE
+#... ernal::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,IsInitialZero){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(50): error 1722: (Info -- assignment operator for class 'fixture::google_test_classTest_IsInitialZero_Test' does not return a reference to class -- Effective C++ #15)
+#... _(google_test_classTest, IsInitialZero));};::testing::TestInfo* const GTES
+#... ernal::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,IsInitialZero){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(50): error 1928: (Note -- Symbol 'google_test_classTest' did not appear in the constructor initializer list -- Effective C++ #12)
+#...                switch (0) case 0: default:
+#...  GTEST_AMBIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_
+#... t()), GTEST_NONFATAL_FAILURE_)
+#... nt(), GTEST_NONFATAL_FAILURE_)
+#... >::Compare, 0.0, obj.getInt())
+        EXPECT_EQ(0.0,obj.getInt());
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(51): error 10: (Error -- Expecting '{')
+    }
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(52): error 525: (Warning -- Negative indentation from line 51)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(51): error 830: (Info -- Location cited in prior message)
+    }
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(52): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(52): error 744: (Info -- switch statement has no default)
+#... est_classTest_Navgative_Test const &); GTEST_DISALLOW_ASSIGN_(google_test_
+#... ME_(google_test_classTest, Navgative));};::testing::TestInfo* const GTEST_
+#... l::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,Navgative){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(53): error 1704: (Info -- Constructor 'google_test_classTest_Navgative_Test::google_test_classTest_Navgative_Test(const google_test_classTest_Navgative_Test &)' has private access specification)
+#... E_(google_test_classTest, Navgative));};::testing::TestInfo* const GTEST_T
+#... l::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,Navgative){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(53): error 1722: (Info -- assignment operator for class 'google_test_classTest_Navgative_Test' does not return a reference to class -- Effective C++ #15)
+#... _(google_test_classTest, Navgative));};::testing::TestInfo* const GTEST_TE
+#... l::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,Navgative){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(53): error 1928: (Note -- Symbol 'google_test_classTest' did not appear in the constructor initializer list -- Effective C++ #12)
+#... t_classTest, Navgative) ::test_info_ = ::testing::internal::MakeAndRegiste
+#... l::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,Navgative){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(53): error 36: (Error -- redefining the storage class of symbol 'google_test_classTest_Navgative_Test::test_info_' (auto vs. static data), conflicts with line 53)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(53): error 830: (Info -- Location cited in prior message)
+        obj.SetFloat(-1);
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 40: (Error -- Undeclared identifier 'obj')
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 10: (Error -- Expecting a structure or union)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 1013: (Error -- Symbol 'SetFloat' not a member of class '')
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 1055: (Error -- Symbol 'fixture::SetFloat' undeclared, assumed to return int)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 746: (Info -- call to function 'fixture::SetFloat()' not made in the presence of a prototype)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 534: (Warning -- Ignoring return value of function 'fixture::SetFloat()' (compare with line 54))
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 830: (Info -- Location cited in prior message)
+#...               switch (0) case 0: default:
+#... GTEST_AMBIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_a
+#... ()), GTEST_NONFATAL_FAILURE_)
+#... t(), GTEST_NONFATAL_FAILURE_)
+#... >::Compare, -1, obj.getInt())
+        EXPECT_EQ(-1,obj.getInt())<<"Expect"<<endl;
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(55): error 10: (Error -- Expecting '{')
+    }
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(59): error 525: (Warning -- Negative indentation from line 55)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(55): error 830: (Info -- Location cited in prior message)
+    }
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(59): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(59): error 744: (Info -- switch statement has no default)
+#... est_classTest_Positive_Test const &); GTEST_DISALLOW_ASSIGN_(google_test_c
+#... ME_(google_test_classTest, Positive));};::testing::TestInfo* const GTEST_T
+#... ::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,Positive){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(61): error 1704: (Info -- Constructor 'google_test_classTest_Positive_Test::google_test_classTest_Positive_Test(const google_test_classTest_Positive_Test &)' has private access specification)
+#... E_(google_test_classTest, Positive));};::testing::TestInfo* const GTEST_TE
+#... ::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,Positive){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(61): error 1722: (Info -- assignment operator for class 'google_test_classTest_Positive_Test' does not return a reference to class -- Effective C++ #15)
+#... _(google_test_classTest, Positive));};::testing::TestInfo* const GTEST_TES
+#... ::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,Positive){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(61): error 1928: (Note -- Symbol 'google_test_classTest' did not appear in the constructor initializer list -- Effective C++ #12)
+#... t_classTest, Positive) ::test_info_ = ::testing::internal::MakeAndRegister
+#... ::GetTypeId<google_test_classTest>())
+    TEST_F(google_test_classTest,Positive){
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(61): error 36: (Error -- redefining the storage class of symbol 'google_test_classTest_Positive_Test::test_info_' (auto vs. static data), conflicts with line 61)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(61): error 830: (Info -- Location cited in prior message)
+        obj.SetFloat(2.0);
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(62): error 40: (Error -- Undeclared identifier 'obj')
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(62): error 10: (Error -- Expecting a structure or union)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(62): error 1013: (Error -- Symbol 'SetFloat' not a member of class '')
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(62): error 516: (Warning -- Symbol 'fixture::SetFloat()' has arg. type conflict (arg. no. 1 -- basic) with line 54)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 830: (Info -- Location cited in prior message)
+        obj.SetFloat(2.0);
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(62): error 534: (Warning -- Ignoring return value of function 'fixture::SetFloat()' (compare with line 54))
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(54): error 830: (Info -- Location cited in prior message)
+#...              switch (0) case 0: default:
+#... TEST_AMBIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_ar
+#... )), GTEST_NONFATAL_FAILURE_)
+#... (), GTEST_NONFATAL_FAILURE_)
+#... >::Compare, 2, obj.getInt())
+        EXPECT_EQ(2,obj.getInt())<<"Expect"<<endl;
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(63): error 10: (Error -- Expecting '{')
+    }
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(72): error 525: (Warning -- Negative indentation from line 63)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(63): error 830: (Info -- Location cited in prior message)
+    }
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(72): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\class_test\google_test_fixture.h(72): error 744: (Info -- switch statement has no default)

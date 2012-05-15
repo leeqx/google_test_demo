@@ -1,0 +1,10 @@
+
+--- Module:   F:\C-CPP_Projects\google_test\google_test\stdafx.cpp (C++)
+
+    --- Wrap-up for Module: F:\C-CPP_Projects\google_test\google_test\stdafx.cpp
+
+F:\C-CPP_Projects\google_test\google_test\stdafx.cpp(9): error 766: (Info -- Header file 'F:\C-CPP_Projects\google_test\google_test\stdafx.h' not used in module 'F:\C-CPP_Projects\google_test\google_test\stdafx.cpp')
+
+--- Global Wrap-up
+
+ error 900: (Note -- Successful completion, 1 messages produced)

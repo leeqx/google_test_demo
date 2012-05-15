@@ -1,0 +1,21 @@
+
+--- Module:   F:\C-CPP_Projects\google_test\class_test\main.cpp (C++)
+    Logger log = Logger::getInstance(str);
+F:\C-CPP_Projects\google_test\class_test\main.cpp(21): error 578: (Warning -- Declaration of symbol 'log' hides symbol 'log(double)' (line 121, file E:\visual studio 2008\VC\include\math.h))
+E:\visual studio 2008\VC\include\math.h(121): error 830: (Info -- Location cited in prior message)
+#... _BODY (log, "begin google_test...", INFO)
+    LOG4CPLUS_INFO(log,"begin google_test...");
+F:\C-CPP_Projects\google_test\class_test\main.cpp(22): error 717: (Info -- do ... while(0);)
+#... _BODY (log, "End google_test!", INFO)
+    LOG4CPLUS_INFO(log,"End google_test!");
+F:\C-CPP_Projects\google_test\class_test\main.cpp(24): error 717: (Info -- do ... while(0);)
+}
+F:\C-CPP_Projects\google_test\class_test\main.cpp(26): error 715: (Info -- Symbol 'argv' (line 15) not referenced)
+F:\C-CPP_Projects\google_test\class_test\main.cpp(15): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\class_test\main.cpp(26): error 715: (Info -- Symbol 'argc' (line 15) not referenced)
+F:\C-CPP_Projects\google_test\class_test\main.cpp(15): error 830: (Info -- Location cited in prior message)
+
+--- Global Wrap-up
+
+ error 900: (Note -- Successful completion, 8 messages produced)

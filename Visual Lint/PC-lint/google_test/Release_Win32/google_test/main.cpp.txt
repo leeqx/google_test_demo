@@ -1,0 +1,244 @@
+
+--- Module:   F:\C-CPP_Projects\google_test\google_test\main.cpp (C++)
+#... ite_Test const &); GTEST_DISALLOW_ASSIGN_(getIntTest_Navite_Test)
+#... tIntTest, Navite));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(get
+#... ::GetTestTypeId())
+#... etIntTest, Navite)
+TEST(getIntTest,Navite){
+F:\C-CPP_Projects\google_test\google_test\test.h(12): error 1704: (Info -- Constructor 'goole_test_n::getIntTest_Navite_Test::getIntTest_Navite_Test(const goole_test_n::getIntTest_Navite_Test &)' has private access specification)
+#... IntTest, Navite));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(getI
+#... ::GetTestTypeId())
+#... etIntTest, Navite)
+TEST(getIntTest,Navite){
+F:\C-CPP_Projects\google_test\google_test\test.h(12): error 1722: (Info -- assignment operator for class 'goole_test_n::getIntTest_Navite_Test' does not return a reference to class -- Effective C++ #15)
+#... ntTest, Navite));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(getIn
+#... ::GetTestTypeId())
+#... etIntTest, Navite)
+TEST(getIntTest,Navite){
+F:\C-CPP_Projects\google_test\google_test\test.h(12): error 1928: (Note -- Symbol 'Test' did not appear in the constructor initializer list -- Effective C++ #12)
+#...         switch (0) case 0: default:
+#... AMBIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_ar = (:
+#... TEST_NONFATAL_FAILURE_)
+#... TEST_NONFATAL_FAILURE_)
+#... ompare, -1, getInt(-1))
+    EXPECT_EQ(-1,getInt(-1))<<"expect"<<endl;
+F:\C-CPP_Projects\google_test\google_test\test.h(13): error 10: (Error -- Expecting '{')
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(15): error 525: (Warning -- Negative indentation from line 13)
+F:\C-CPP_Projects\google_test\google_test\test.h(13): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(15): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\google_test\test.h(15): error 744: (Info -- switch statement has no default)
+#... o_Test const &); GTEST_DISALLOW_ASSIGN_(getIntTest_Zero_Test)
+#... tIntTest, Zero));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(getIn
+#... GetTestTypeId())
+#... etIntTest, Zero)
+TEST(getIntTest,Zero){
+F:\C-CPP_Projects\google_test\google_test\test.h(16): error 1704: (Info -- Constructor 'getIntTest_Zero_Test::getIntTest_Zero_Test(const getIntTest_Zero_Test &)' has private access specification)
+#... IntTest, Zero));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(getInt
+#... GetTestTypeId())
+#... etIntTest, Zero)
+TEST(getIntTest,Zero){
+F:\C-CPP_Projects\google_test\google_test\test.h(16): error 1722: (Info -- assignment operator for class 'getIntTest_Zero_Test' does not return a reference to class -- Effective C++ #15)
+#... ntTest, Zero));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(getIntT
+#... GetTestTypeId())
+#... etIntTest, Zero)
+TEST(getIntTest,Zero){
+F:\C-CPP_Projects\google_test\google_test\test.h(16): error 1928: (Note -- Symbol 'Test' did not appear in the constructor initializer list -- Effective C++ #12)
+#... ) ::test_info_ = ::testing::internal::MakeAndRegisterTestInfo( "getIntTest
+#... GetTestTypeId())
+#... etIntTest, Zero)
+TEST(getIntTest,Zero){
+F:\C-CPP_Projects\google_test\google_test\test.h(16): error 36: (Error -- redefining the storage class of symbol 'getIntTest_Zero_Test::test_info_' (auto vs. static data), conflicts with line 16)
+F:\C-CPP_Projects\google_test\google_test\test.h(16): error 830: (Info -- Location cited in prior message)
+#...       switch (0) case 0: default:
+#... BIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_ar = (::t
+#... ST_NONFATAL_FAILURE_)
+#... ST_NONFATAL_FAILURE_)
+#... ompare, 0, getInt(0))
+    EXPECT_EQ(0,getInt(0))<<"Expect"<<endl;
+F:\C-CPP_Projects\google_test\google_test\test.h(17): error 10: (Error -- Expecting '{')
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(19): error 525: (Warning -- Negative indentation from line 17)
+F:\C-CPP_Projects\google_test\google_test\test.h(17): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(19): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\google_test\test.h(19): error 744: (Info -- switch statement has no default)
+#... atT_Test const &); GTEST_DISALLOW_ASSIGN_(getIntTest_FloatT_Test)
+#... tIntTest, FloatT));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(get
+#... ::GetTestTypeId())
+#... etIntTest, FloatT)
+TEST(getIntTest,FloatT){
+F:\C-CPP_Projects\google_test\google_test\test.h(20): error 1704: (Info -- Constructor 'getIntTest_FloatT_Test::getIntTest_FloatT_Test(const getIntTest_FloatT_Test &)' has private access specification)
+#... IntTest, FloatT));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(getI
+#... ::GetTestTypeId())
+#... etIntTest, FloatT)
+TEST(getIntTest,FloatT){
+F:\C-CPP_Projects\google_test\google_test\test.h(20): error 1722: (Info -- assignment operator for class 'getIntTest_FloatT_Test' does not return a reference to class -- Effective C++ #15)
+#... ntTest, FloatT));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(getIn
+#... ::GetTestTypeId())
+#... etIntTest, FloatT)
+TEST(getIntTest,FloatT){
+F:\C-CPP_Projects\google_test\google_test\test.h(20): error 1928: (Note -- Symbol 'Test' did not appear in the constructor initializer list -- Effective C++ #12)
+#... tT) ::test_info_ = ::testing::internal::MakeAndRegisterTestInfo( "getIntTe
+#... ::GetTestTypeId())
+#... etIntTest, FloatT)
+TEST(getIntTest,FloatT){
+F:\C-CPP_Projects\google_test\google_test\test.h(20): error 36: (Error -- redefining the storage class of symbol 'getIntTest_FloatT_Test::test_info_' (auto vs. static data), conflicts with line 20)
+F:\C-CPP_Projects\google_test\google_test\test.h(20): error 830: (Info -- Location cited in prior message)
+#...         switch (0) case 0: default:
+#... AMBIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_ar = (:
+#... TEST_NONFATAL_FAILURE_)
+#... TEST_NONFATAL_FAILURE_)
+#... ompare, 1, getInt(1.5))
+    EXPECT_EQ(1,getInt(1.5))<<"Expect"<<endl;
+F:\C-CPP_Projects\google_test\google_test\test.h(21): error 10: (Error -- Expecting '{')
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(23): error 525: (Warning -- Negative indentation from line 21)
+F:\C-CPP_Projects\google_test\google_test\test.h(21): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(23): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\google_test\test.h(23): error 744: (Info -- switch statement has no default)
+#... ite_Test const &); GTEST_DISALLOW_ASSIGN_(IsPrimTest_Navite_Test)
+#... PrimTest, Navite));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(IsP
+#... ::GetTestTypeId())
+#... sPrimTest, Navite)
+TEST(IsPrimTest,Navite){
+F:\C-CPP_Projects\google_test\google_test\test.h(25): error 1704: (Info -- Constructor 'IsPrimTest_Navite_Test::IsPrimTest_Navite_Test(const IsPrimTest_Navite_Test &)' has private access specification)
+#... rimTest, Navite));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(IsPr
+#... ::GetTestTypeId())
+#... sPrimTest, Navite)
+TEST(IsPrimTest,Navite){
+F:\C-CPP_Projects\google_test\google_test\test.h(25): error 1722: (Info -- assignment operator for class 'IsPrimTest_Navite_Test' does not return a reference to class -- Effective C++ #15)
+#... imTest, Navite));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(IsPri
+#... ::GetTestTypeId())
+#... sPrimTest, Navite)
+TEST(IsPrimTest,Navite){
+F:\C-CPP_Projects\google_test\google_test\test.h(25): error 1928: (Note -- Symbol 'Test' did not appear in the constructor initializer list -- Effective C++ #12)
+#... te) ::test_info_ = ::testing::internal::MakeAndRegisterTestInfo( "IsPrimTe
+#... ::GetTestTypeId())
+#... sPrimTest, Navite)
+TEST(IsPrimTest,Navite){
+F:\C-CPP_Projects\google_test\google_test\test.h(25): error 36: (Error -- redefining the storage class of symbol 'IsPrimTest_Navite_Test::test_info_' (auto vs. static data), conflicts with line 25)
+F:\C-CPP_Projects\google_test\google_test\test.h(25): error 830: (Info -- Location cited in prior message)
+#...        switch (0) case 0: default:
+#... MBIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_ar_ = ::
+#... EST_NONFATAL_FAILURE_)
+    EXPECT_TRUE(IsPrim(-1))<<"Expect"<<endl;
+F:\C-CPP_Projects\google_test\google_test\test.h(26): error 10: (Error -- Expecting '{')
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(28): error 525: (Warning -- Negative indentation from line 26)
+F:\C-CPP_Projects\google_test\google_test\test.h(26): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(28): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\google_test\test.h(28): error 744: (Info -- switch statement has no default)
+#... o_Test const &); GTEST_DISALLOW_ASSIGN_(IsPrimTest_Zero_Test)
+#... PrimTest, Zero));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(IsPri
+#... GetTestTypeId())
+#... sPrimTest, Zero)
+TEST(IsPrimTest,Zero){
+F:\C-CPP_Projects\google_test\google_test\test.h(29): error 1704: (Info -- Constructor 'IsPrimTest_Zero_Test::IsPrimTest_Zero_Test(const IsPrimTest_Zero_Test &)' has private access specification)
+#... rimTest, Zero));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(IsPrim
+#... GetTestTypeId())
+#... sPrimTest, Zero)
+TEST(IsPrimTest,Zero){
+F:\C-CPP_Projects\google_test\google_test\test.h(29): error 1722: (Info -- assignment operator for class 'IsPrimTest_Zero_Test' does not return a reference to class -- Effective C++ #15)
+#... imTest, Zero));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(IsPrimT
+#... GetTestTypeId())
+#... sPrimTest, Zero)
+TEST(IsPrimTest,Zero){
+F:\C-CPP_Projects\google_test\google_test\test.h(29): error 1928: (Note -- Symbol 'Test' did not appear in the constructor initializer list -- Effective C++ #12)
+#... ) ::test_info_ = ::testing::internal::MakeAndRegisterTestInfo( "IsPrimTest
+#... GetTestTypeId())
+#... sPrimTest, Zero)
+TEST(IsPrimTest,Zero){
+F:\C-CPP_Projects\google_test\google_test\test.h(29): error 36: (Error -- redefining the storage class of symbol 'IsPrimTest_Zero_Test::test_info_' (auto vs. static data), conflicts with line 29)
+F:\C-CPP_Projects\google_test\google_test\test.h(29): error 830: (Info -- Location cited in prior message)
+#...        switch (0) case 0: default:
+#... MBIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_ar_ = ::
+#... EST_NONFATAL_FAILURE_)
+    EXPECT_FALSE(IsPrim(0))<<"Expect"<<IsPrim(0)<<endl;
+F:\C-CPP_Projects\google_test\google_test\test.h(30): error 10: (Error -- Expecting '{')
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(32): error 525: (Warning -- Negative indentation from line 30)
+F:\C-CPP_Projects\google_test\google_test\test.h(30): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(32): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\google_test\test.h(32): error 744: (Info -- switch statement has no default)
+#... itive_Test const &); GTEST_DISALLOW_ASSIGN_(IsPrimTest_Positive_Test)
+#... PrimTest, Positive));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(I
+#... al::GetTestTypeId())
+#... sPrimTest, Positive)
+TEST(IsPrimTest,Positive){
+F:\C-CPP_Projects\google_test\google_test\test.h(33): error 1704: (Info -- Constructor 'IsPrimTest_Positive_Test::IsPrimTest_Positive_Test(const IsPrimTest_Positive_Test &)' has private access specification)
+#... rimTest, Positive));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(Is
+#... al::GetTestTypeId())
+#... sPrimTest, Positive)
+TEST(IsPrimTest,Positive){
+F:\C-CPP_Projects\google_test\google_test\test.h(33): error 1722: (Info -- assignment operator for class 'IsPrimTest_Positive_Test' does not return a reference to class -- Effective C++ #15)
+#... imTest, Positive));};::testing::TestInfo* const GTEST_TEST_CLASS_NAME_(IsP
+#... al::GetTestTypeId())
+#... sPrimTest, Positive)
+TEST(IsPrimTest,Positive){
+F:\C-CPP_Projects\google_test\google_test\test.h(33): error 1928: (Note -- Symbol 'Test' did not appear in the constructor initializer list -- Effective C++ #12)
+#... tive) ::test_info_ = ::testing::internal::MakeAndRegisterTestInfo( "IsPrim
+#... al::GetTestTypeId())
+#... sPrimTest, Positive)
+TEST(IsPrimTest,Positive){
+F:\C-CPP_Projects\google_test\google_test\test.h(33): error 36: (Error -- redefining the storage class of symbol 'IsPrimTest_Positive_Test::test_info_' (auto vs. static data), conflicts with line 33)
+F:\C-CPP_Projects\google_test\google_test\test.h(33): error 830: (Info -- Location cited in prior message)
+#...        switch (0) case 0: default:
+#... MBIGUOUS_ELSE_BLOCKER_ if (const ::testing::AssertionResult gtest_ar_ = ::
+#... EST_NONFATAL_FAILURE_)
+    EXPECT_FALSE(IsPrim(2))<<"Expect"<<endl;
+F:\C-CPP_Projects\google_test\google_test\test.h(34): error 10: (Error -- Expecting '{')
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(36): error 525: (Warning -- Negative indentation from line 34)
+F:\C-CPP_Projects\google_test\google_test\test.h(34): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\test.h(36): error 764: (Info -- switch statement does not have a case)
+F:\C-CPP_Projects\google_test\google_test\test.h(36): error 744: (Info -- switch statement has no default)
+    tstring str(class_name,class_name+sizeof(class_name)/sizeof(char) );
+F:\C-CPP_Projects\google_test\google_test\main.cpp(21): error 64: (Error -- Type mismatch (initialization) (int = pointer))
+F:\C-CPP_Projects\google_test\google_test\main.cpp(21): error 10: (Error -- Expecting ')')
+F:\C-CPP_Projects\google_test\google_test\main.cpp(21): error 10: (Error -- Expecting ';')
+    Logger log = Logger::getInstance(str);
+F:\C-CPP_Projects\google_test\google_test\main.cpp(22): error 578: (Warning -- Declaration of symbol 'log' hides symbol 'log(double)' (line 121, file E:\visual studio 2008\VC\include\math.h))
+E:\visual studio 2008\VC\include\math.h(121): error 830: (Info -- Location cited in prior message)
+#... LOG_LEVEL, _log4cplus_buf.str(), __FILE__, __LINE__); } } while (0)
+#... _BODY (log, "google_test", INFO)
+    LOG4CPLUS_INFO(log,"google_test");
+F:\C-CPP_Projects\google_test\google_test\main.cpp(23): error 64: (Error -- Type mismatch (arg. no. 2) (int = struct))
+#...  _log4cplus_buf.str(), __FILE__, __LINE__); } } while (0)
+#... _BODY (log, "google_test", INFO)
+    LOG4CPLUS_INFO(log,"google_test");
+F:\C-CPP_Projects\google_test\google_test\main.cpp(23): error 64: (Error -- Type mismatch (arg. no. 3) (int = pointer))
+#... s_buf.str(), __FILE__, __LINE__); } } while (0)
+#... _BODY (log, "google_test", INFO)
+    LOG4CPLUS_INFO(log,"google_test");
+F:\C-CPP_Projects\google_test\google_test\main.cpp(23): error 119: (Error -- Too many arguments (4) for prototype 'log4cplus::Logger::forcedLog(int, int, int)')
+#... _BODY (log, "google_test", INFO)
+    LOG4CPLUS_INFO(log,"google_test");
+F:\C-CPP_Projects\google_test\google_test\main.cpp(23): error 717: (Info -- do ... while(0);)
+    ::testing::InitGoogleTest(&argc,(char**)argv);
+F:\C-CPP_Projects\google_test\google_test\main.cpp(25): error 1924: (Note -- C-style cast -- More Effective C++ #2)
+F:\C-CPP_Projects\google_test\google_test\main.cpp(25): error 1924: (Note -- C-style cast -- More Effective C++ #2)
+    RUN_ALL_TESTS();
+F:\C-CPP_Projects\google_test\google_test\main.cpp(26): error 534: (Warning -- Ignoring return value of function 'testing::UnitTest::Run(void)' (compare with line 1102, file E:\C-librarys\gtest-1.6.0\include\gtest\gtest.h))
+E:\C-librarys\gtest-1.6.0\include\gtest\gtest.h(1102): error 830: (Info -- Location cited in prior message)
+}
+F:\C-CPP_Projects\google_test\google_test\main.cpp(28): error 550: (Warning -- Symbol 'class_name' (line 20) not accessed)
+F:\C-CPP_Projects\google_test\google_test\main.cpp(20): error 830: (Info -- Location cited in prior message)
+F:\C-CPP_Projects\google_test\google_test\test.h(33): error 438: (Warning -- Last value assigned to variable 'IsPrimTest_Positive_Test::test_info_' (defined at line 33, file F:\C-CPP_Projects\google_test\google_test\test.h) not used)
+E:\C-librarys\log4cplus-1.0.4.1-rc1\include\log4cplus\helpers\thread-config.h(93): error 438: (Warning -- Last value assigned to variable 'log4cplus::thread::deleteMutex' (defined at line 93, file E:\C-librarys\log4cplus-1.0.4.1-rc1\include\log4cplus\helpers\thread-config.h) not used)
+F:\C-CPP_Projects\google_test\google_test\main.cpp(14): error 529: (Warning -- Symbol 'wmain(int, wchar_t **)' (line 14, file F:\C-CPP_Projects\google_test\google_test\main.cpp) not subsequently referenced)
+F:\C-CPP_Projects\google_test\google_test\main.cpp(29): error 10: (Error -- Expecting '}')
+F:\C-CPP_Projects\google_test\google_test\test.h(29): error 438: (Warning -- Last value assigned to variable 'IsPrimTest_Zero_Test::test_info_' (defined at line 29, file F:\C-CPP_Projects\google_test\google_test\test.h) not used)
+F:\C-CPP_Projects\google_test\google_test\test.h(25): error 438: (Warning -- Last value assigned to variable 'IsPrimTest_Navite_Test::test_info_' (defined at line 25, file F:\C-CPP_Projects\google_test\google_test\test.h) not used)
+F:\C-CPP_Projects\google_test\google_test\test.h(20): error 438: (Warning -- Last value assigned to variable 'getIntTest_FloatT_Test::test_info_' (defined at line 20, file F:\C-CPP_Projects\google_test\google_test\test.h) not used)
+F:\C-CPP_Projects\google_test\google_test\test.h(16): error 438: (Warning -- Last value assigned to variable 'getIntTest_Zero_Test::test_info_' (defined at line 16, file F:\C-CPP_Projects\google_test\google_test\test.h) not used)
+F:\C-CPP_Projects\google_test\google_test\test.h(7): error 96: (Error -- Unmatched left brace for namespace goole_test_n on line 7, file F:\C-CPP_Projects\google_test\google_test\test.h)
+
+--- Global Wrap-up
+
+ error 900: (Note -- Successful completion, 82 messages produced)

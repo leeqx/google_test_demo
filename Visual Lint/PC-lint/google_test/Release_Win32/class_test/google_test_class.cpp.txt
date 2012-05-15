@@ -1,0 +1,8 @@
+
+--- Module:   F:\C-CPP_Projects\google_test\class_test\google_test_class.cpp (C++)
+}
+F:\C-CPP_Projects\google_test\class_test\google_test_class.cpp(20): error 1762: (Info -- Member function 'class_test::google_test_class::getInt(void)' could be made const)
+
+--- Global Wrap-up
+
+ error 900: (Note -- Successful completion, 1 messages produced)

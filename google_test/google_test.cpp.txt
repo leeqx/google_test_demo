@@ -1,0 +1,23 @@
+
+--- Module:   f:\C-CPP_Projects\google_test\google_test\google_test.cpp (C++)
+#include<gtest/gtest.h>
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(5): error 7: (Error -- Unable to open include file 'gtest\gtest.h')
+}
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(17): error 533: (Warning -- function 'google_test::IsPrim(int)' should return a value (see line 13))
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(13): error 830: (Info -- Location cited in prior message)
+    google_test::getInt(2.3);
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(23): error 747: (Info -- Significant prototype coercion (arg. no. 1) double to float)
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(23): error 534: (Warning -- Ignoring return value of function 'google_test::getInt(float)' (compare with line 10))
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(10): error 830: (Info -- Location cited in prior message)
+    google_test::getInt(2.3);
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(23): error 522: (Warning -- Highest operation, function 'google_test::getInt', lacks side-effects)
+}
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(25): error 715: (Info -- Symbol 'argv' (line 21) not referenced)
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(21): error 830: (Info -- Location cited in prior message)
+}
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(25): error 715: (Info -- Symbol 'argc' (line 21) not referenced)
+f:\C-CPP_Projects\google_test\google_test\google_test.cpp(21): error 830: (Info -- Location cited in prior message)
+
+--- Global Wrap-up
+
+ error 900: (Note -- Successful completion, 11 messages produced)

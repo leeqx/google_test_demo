@@ -1,0 +1,10 @@
+
+--- Module:   F:\C-CPP_Projects\google_test\class_test\google_test_class.cpp (C++)
+}
+F:\C-CPP_Projects\google_test\class_test\google_test_class.cpp(12): error 1762: (Info -- Member function 'class_test::google_test_class::getInt(float)' could be made const)
+}
+F:\C-CPP_Projects\google_test\class_test\google_test_class.cpp(19): error 1762: (Info -- Member function 'class_test::google_test_class::IsPrim(int)' could be made const)
+
+--- Global Wrap-up
+
+ error 900: (Note -- Successful completion, 2 messages produced)

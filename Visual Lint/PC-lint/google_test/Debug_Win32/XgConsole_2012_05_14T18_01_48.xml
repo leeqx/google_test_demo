@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<BuildSet FormatVersion="1">
+	<Environments>
+		<Environment Name="Default">
+			<Tools>
+				<Tool Name="XgTaskWrapper" AllowRemote="true" Path="E:\visual_lint\Riverblade\Visual Lint\XgTaskWrapper.exe" SuccessExitCodes="0..254" WarningExitCodes="255" ShowSourceInOutput="1" OutputPrefix="{250A04BB-1E8F-4373-A42F-7E676283D3A2}" OutputFileMasks="*.lph" Params=""/>
+			</Tools>
+		</Environment>
+	</Environments>
+	<Project Name="Visual Lint [Machine: SNAIL-PC; Host: VS9.0; User: snail]" Env="Default">
+		<Task Params="/tool=PC-lint C:\lint\lint-nt.exe -iC:\lint\lnt -iC:\lint -background -b -u C:\lint\lnt\std_vs90.lnt  env-vc9.lnt -vm -t4 +linebuf +linebuf +linebuf -iF:\C-CPP_Projects\google_test\google_test\Debug --u F:\C-CPP_Projects\google_test\google_test\google_test_vs90_Debug_Win32.lnt F:\C-CPP_Projects\google_test\google_test\google_test.cpp" SourceFile="google_test.cpp;[TaskID=17];" Tool="XgTaskWrapper" WorkingDir="F:\C-CPP_Projects\google_test\google_test\" Caption="google_test.cpp"/>
+		<Task Params="/tool=PC-lint C:\lint\lint-nt.exe -iC:\lint\lnt -iC:\lint -background -b -u C:\lint\lnt\std_vs90.lnt  env-vc9.lnt -vm -t4 +linebuf +linebuf +linebuf -iF:\C-CPP_Projects\google_test\google_test\Debug --u F:\C-CPP_Projects\google_test\google_test\google_test_vs90_Debug_Win32.lnt F:\C-CPP_Projects\google_test\google_test\stdafx.cpp" SourceFile="stdafx.cpp;[TaskID=20];" Tool="XgTaskWrapper" WorkingDir="F:\C-CPP_Projects\google_test\google_test\" Caption="stdafx.cpp"/>
+	</Project>
+</BuildSet>
